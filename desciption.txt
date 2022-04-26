@@ -1,0 +1,2 @@
+You can import it as module. For that copy tag script  from index.html and paste it in your html doc. Also u can change numbers in the script tag.
+Also dont forgot paste other files into ur project and correctly include them. Its module => dont forgot set numbers in hmtl for each page.

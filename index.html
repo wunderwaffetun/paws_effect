@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./pawsStyle.css">
+</head>
+<body>
+    
+    <script type = 'module'>
+        import {THE_ANIMATION_PAWS_MODULE} from './js/pawsScript.js'
+        let Number_paws = 10 //5 paw's ways in time it is normal for body with width 1080px
+        let Animation_Speed = 20 //20 is normal 
+        let Height_Animation = 2000 //   !!!(WARNING) Adjust max height body spawn. If parametr too big appear undesirable scroll advice delete it for mobile 
+        let mobile = "False" //use "False" or "True"
+        let stateBodyHeight = "True" // its mostly important param because without it js code will be create undesireable scroll Y
+        THE_ANIMATION_PAWS_MODULE(Number_paws, Animation_Speed, Height_Animation, mobile, stateBodyHeight)
+        // !!!!!!! if stateBodyHeight = "True" add style for body overflow: hidden
+        //because that script state max-height for body dinamically
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
